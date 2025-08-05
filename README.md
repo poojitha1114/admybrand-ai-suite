@@ -7,6 +7,12 @@ A stunning, modern landing page for "ADmyBRAND AI Suite" - a fictional AI-powere
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-10.0-purple?style=for-the-badge)
 
+## 🚀 Live Demo
+
+**Live Demo:** [ADmyBRAND AI Suite](https://admybrand-ai-suite.vercel.app)
+
+Experience the stunning landing page with all its features and animations!
+
 ## 🌟 Features
 
 ### Landing Page Sections
@@ -64,6 +70,41 @@ yarn dev
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. **Push to GitHub**
+   ```bash
+   git push origin main
+   ```
+
+2. **Deploy to Vercel**
+   - Go to [vercel.com](https://vercel.com)
+   - Connect your GitHub account
+   - Import your repository
+   - Vercel will automatically detect Next.js and deploy
+
+3. **Custom Domain (Optional)**
+   - Add your custom domain in Vercel dashboard
+   - Configure DNS settings
+
+### Deploy to Netlify
+
+1. **Build the project**
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy to Netlify**
+   - Go to [netlify.com](https://netlify.com)
+   - Drag and drop the `.next` folder
+   - Or connect your GitHub repository
+
+### Environment Variables
+
+No environment variables required for this project.
 
 ## 📁 Project Structure
 
