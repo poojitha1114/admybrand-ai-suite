@@ -90,22 +90,6 @@ yarn dev
    - Add your custom domain in Vercel dashboard
    - Configure DNS settings
 
-### Deploy to Netlify
-
-1. **Build the project**
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy to Netlify**
-   - Go to [netlify.com](https://netlify.com)
-   - Drag and drop the `.next` folder
-   - Or connect your GitHub repository
-
-### Environment Variables
-
-No environment variables required for this project.
-
 ## 📁 Project Structure
 
 ```
@@ -172,25 +156,6 @@ The project uses CSS custom properties for easy theming. Update the colors in `s
 }
 ```
 
-### Animations
-Custom animations are defined in `src/app/globals.css`:
-
-```css
-@keyframes blob {
-  0% { transform: translate(0px, 0px) scale(1); }
-  33% { transform: translate(30px, -50px) scale(1.1); }
-  66% { transform: translate(-20px, 20px) scale(0.9); }
-  100% { transform: translate(0px, 0px) scale(1); }
-}
-```
-
-### Content Updates
-Update the content in each section component:
-- **Hero**: Update headline, subtext, and CTA buttons
-- **Features**: Modify feature list in `src/components/sections/features.tsx`
-- **Pricing**: Update plans in `src/components/sections/pricing.tsx`
-- **Testimonials**: Change testimonials in `src/components/sections/testimonials.tsx`
-- **FAQ**: Modify questions in `src/components/sections/faq.tsx`
 
 ## 📱 Responsive Design
 
@@ -251,10 +216,6 @@ The project includes pre-commit hooks for:
 2. Vercel will automatically detect Next.js
 3. Deploy with one click
 
-### Netlify
-1. Build the project: `npm run build`
-2. Deploy the `out` directory
-3. Configure redirects for Next.js routing
 
 ### Other Platforms
 The project can be deployed to any platform that supports Node.js:
@@ -264,14 +225,6 @@ The project can be deployed to any platform that supports Node.js:
 - AWS Amplify
 
 ## 📊 Analytics
-
-### Google Analytics
-Add your Google Analytics ID to track user behavior:
-
-```typescript
-// In layout.tsx
-const GA_TRACKING_ID = 'your-ga-tracking-id'
-```
 
 ### Custom Events
 Track important user interactions:
